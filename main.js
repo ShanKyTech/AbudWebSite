@@ -3,7 +3,7 @@ function revealMesaage() {
 }
  function countDown(){
  	var currentVal = document.getElementById("countDownButton").innerHTML;
- 	var newVal = 0;
+ 	var newVal = 10;
  	if (currentVal>0){
  		newVal = currentVal-1;
  	}
